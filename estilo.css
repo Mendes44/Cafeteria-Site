@@ -1,0 +1,30 @@
+*{
+    margin: 0 auto;
+}
+
+.topo {
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+
+    background-color: #604829;
+   
+}
+
+.links {
+    color: #c4a47c;
+    margin-left: 1000px;
+    padding: 20px;
+}
+
+
+
+
+
+
+/* RODAPE */
+.rodape {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
