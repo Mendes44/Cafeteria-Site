@@ -70,3 +70,34 @@
     color: #c4a47c;;
     text-shadow: 3px 5px 2px #000;
 }
+
+.container-parallax1 h1 {
+    position: absolute;
+    top: 45%;
+    right: 0;
+    left: 0;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 90px;
+    font-family: "Fraunces", serif;
+}
+
+.container-parallax2 h3, .container-parallax3 h3 {
+    position: relative;
+    top: 45%;
+    left: 0;
+    right: 0;
+    width: 500px;
+    padding: 10px;
+
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+    font-family: "Fraunces", sans-serif;
+    font-style: italic;
+
+    letter-spacing: 2px;
+    background-color: #604829;
+    color: #fff;
+}
