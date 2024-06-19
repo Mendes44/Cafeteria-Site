@@ -1,5 +1,72 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*Efeito Parallax Geral*/
+.container-parallax1, .container-parallax2,
+.container-parallax3, .container-parallax4,
+.container-parallax5 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-parallax1 {
+    background-image: url("IMG/parallax-imagem1.png");
+    height: 100vh;
+}
+
+.container-parallax2 {
+    background-image: url("IMG/parallax-imagem2.jpg");
+    height: 50vh;
+}
+
+.container-parallax3 {
+    background-image: url("IMG/parallax-imagem3.jpg");
+    height: 50vh;
+}
+
+.container-parallax4 {
+    background-image: url("IMG/parallax-imagem4.png");
+    height: 100vh;
+}
+
+.container-parallax5 {
+    background-image: url("IMG/cafeteria.jpg");
+    height: 85vh;
+}
+
+/*Topo*/
+.topo{
+    width: 100%;
+    position: fixed;
+    background-color: #604829;
+    z-index: 1;
+}
+
+.topo img {
+    width: 100px;
+    position: relative;
+    left: 10%;
+}
+
+.topo div {
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+
+.topo a {
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #c4a47c;;
+    text-shadow: 3px 5px 2px #000;
 }
